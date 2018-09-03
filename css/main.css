@@ -1,0 +1,538 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+.c-bodyText {
+  font-family: "Karla", "Lucida Grande", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+.c-veganHotdogContainer {
+  font-size: 1rem;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-size: 10em;
+  width: 1em;
+  height: 1em;
+  display: flex;
+  box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.c-veganHotdogContainer:after, .c-veganHotdogContainer:before {
+  content: "";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  height: 0.5em;
+  border-radius: 0.25em;
+  top: 50%;
+  margin-top: -10%;
+  width: 100%;
+  animation: hover 3s infinite linear, eatVeganHotdog 3s infinite linear;
+}
+.c-veganHotdogContainer:before {
+  margin-top: -35%;
+}
+.c-veganHotdogContainer__veganHotdog {
+  z-index: 8;
+  display: block;
+  position: relative;
+  margin: auto;
+  font-size: 0.75em;
+  width: 1em;
+  height: 0.18em;
+  border-radius: 0.09em;
+  background-color: #CA6A41;
+  animation: hover 3s infinite linear;
+}
+.c-veganHotdogContainer__veganHotdog:before {
+  content: "";
+  display: block;
+  font-size: 0.75em;
+  width: 1em;
+  height: 0.35em;
+  background-color: #EDB662;
+  position: absolute;
+  border-radius: 0.2em;
+  top: 0.085em;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.c-veganHotdogContainer__veganHotdog--ketchup:after, .c-veganHotdogContainer__veganHotdog--mustard:after {
+  content: "";
+  display: block;
+  font-size: 0.75em;
+  width: 1em;
+  position: absolute;
+  top: -0.033em;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.c-veganHotdogContainer__veganHotdog--ketchup:after {
+  background-color: #D92A1F;
+  height: 0.05em;
+  border-radius: 0.025em;
+}
+.c-veganHotdogContainer__veganHotdog--mustard:after {
+  background-color: #F5D530;
+  height: 0.06em;
+  border-radius: 0.03em;
+}
+
+@keyframes eatVeganHotdog {
+  0%, 25% {
+    left: -100%;
+  }
+  25.1%, 50% {
+    left: -60%;
+  }
+  50.1%, 75% {
+    left: -35%;
+  }
+  75.1%, 100% {
+    left: 0%;
+  }
+}
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.1em);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.c-title {
+  font-family: "Overpass Mono", "Lucida Grande", "Arial", sans-serif;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+.c-siteHeader {
+  align-items: center;
+  background: #009D8A linear-gradient(135deg, #45D6A2 0%, #009D8A 100%);
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  text-align: center;
+}
+
+.c-skullIcon {
+  margin: auto;
+  font-size: 10rem;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.95);
+  animation: colorFade 2500ms infinite ease-in;
+}
+
+@keyframes colorFade {
+  0% {
+    background: #F8955D;
+  }
+  50% {
+    background: #E88DF7;
+  }
+  100% {
+    background: #F8955D;
+  }
+}
+.c-subTitle {
+  font-family: "Karla", "Lucida Grande", "Arial", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.l-height--half {
+  box-sizing: border-box;
+  min-height: 50vh;
+}
+.l-height--threeQuarter {
+  box-sizing: border-box;
+  min-height: 75vh;
+}
+.l-height--full {
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.u-color--black {
+  color: #1d1d1e;
+}
+.u-color--white {
+  color: #fff;
+}
+.u-color--whiteBlend {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.u-margin--auto {
+  margin: auto;
+}
+.u-margin--none {
+  margin: 0;
+}
+.u-margin--xs {
+  margin: 0.5rem;
+}
+.u-margin--s {
+  margin: 1rem;
+}
+.u-margin--m {
+  margin: 2rem;
+}
+.u-margin--l {
+  margin: 4rem;
+}
+.u-margin--xl {
+  margin: 8rem;
+}
+.u-marginX--auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.u-marginX--none {
+  margin-left: 0;
+  margin-right: 0;
+}
+.u-marginX--xs {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.u-marginX--s {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.u-marginX--m {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.u-marginX--l {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.u-marginX--xl {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+.u-marginY--auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.u-marginY--none {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.u-marginY--xs {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.u-marginY--s {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.u-marginY--m {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.u-marginY--l {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.u-marginY--xl {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.u-marginTop--auto {
+  margin-auto: 0;
+}
+.u-marginTop--none {
+  margin-top: 0;
+}
+.u-marginTop--xs {
+  margin-top: 0.5rem;
+}
+.u-marginTop--s {
+  margin-top: 1rem;
+}
+.u-marginTop--m {
+  margin-top: 2rem;
+}
+.u-marginTop--l {
+  margin-top: 4rem;
+}
+.u-marginTop--xl {
+  margin-top: 8rem;
+}
+.u-marginBottom--auto {
+  margin-bottom: auto;
+}
+.u-marginBottom--none {
+  margin-bottom: 0;
+}
+.u-marginBottom--xs {
+  margin-bottom: 0.5rem;
+}
+.u-marginBottom--s {
+  margin-bottom: 1rem;
+}
+.u-marginBottom--m {
+  margin-bottom: 2rem;
+}
+.u-marginBottom--l {
+  margin-bottom: 4rem;
+}
+.u-marginBottom--xl {
+  margin-bottom: 8rem;
+}
+.u-marginLeft--auto {
+  margin-left: auto;
+}
+.u-marginLeft--none {
+  margin-left: 0;
+}
+.u-marginLeft--xs {
+  margin-left: 0.5rem;
+}
+.u-marginLeft--s {
+  margin-left: 1rem;
+}
+.u-marginLeft--m {
+  margin-left: 2rem;
+}
+.u-marginLeft--l {
+  margin-left: 4rem;
+}
+.u-marginLeft--xl {
+  margin-left: 8rem;
+}
+.u-marginRight--auto {
+  margin-right: auto;
+}
+.u-marginRight--none {
+  margin-right: 0;
+}
+.u-marginRight--xs {
+  margin-right: 0.5rem;
+}
+.u-marginRight--s {
+  margin-right: 1rem;
+}
+.u-marginRight--m {
+  margin-right: 2rem;
+}
+.u-marginRight--l {
+  margin-right: 4rem;
+}
+.u-marginRight--xl {
+  margin-right: 8rem;
+}
+
+.u-padding--none {
+  padding: 0;
+}
+.u-padding--xs {
+  padding: 0.5rem;
+}
+.u-padding--s {
+  padding: 1rem;
+}
+.u-padding--m {
+  padding: 2rem;
+}
+.u-padding--l {
+  padding: 4rem;
+}
+.u-padding--xl {
+  padding: 8rem;
+}
+.u-paddingX--none {
+  padding-left: 0;
+  padding-right: 0;
+}
+.u-paddingX--xs {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.u-paddingX--s {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.u-paddingX--m {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.u-paddingX--l {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.u-paddingX--xl {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.u-paddingY--none {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.u-paddingY--xs {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.u-paddingY--s {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.u-paddingY--m {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.u-paddingY--l {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.u-paddingY--xl {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.u-paddingTop--none {
+  padding-top: 0;
+}
+.u-paddingTop--xs {
+  padding-top: 0.5rem;
+}
+.u-paddingTop--s {
+  padding-top: 1rem;
+}
+.u-paddingTop--m {
+  padding-top: 2rem;
+}
+.u-paddingTop--l {
+  padding-top: 4rem;
+}
+.u-paddingTop--xl {
+  padding-top: 8rem;
+}
+.u-paddingBottom--none {
+  padding-bottom: 0;
+}
+.u-paddingBottom--xs {
+  padding-bottom: 0.5rem;
+}
+.u-paddingBottom--s {
+  padding-bottom: 1rem;
+}
+.u-paddingBottom--m {
+  padding-bottom: 2rem;
+}
+.u-paddingBottom--l {
+  padding-bottom: 4rem;
+}
+.u-paddingBottom--xl {
+  padding-bottom: 8rem;
+}
+.u-paddingLeft--none {
+  padding-left: 0;
+}
+.u-paddingLeft--xs {
+  padding-left: 0.5rem;
+}
+.u-paddingLeft--s {
+  padding-left: 1rem;
+}
+.u-paddingLeft--m {
+  padding-left: 2rem;
+}
+.u-paddingLeft--l {
+  padding-left: 4rem;
+}
+.u-paddingLeft--xl {
+  padding-left: 8rem;
+}
+.u-paddingRight--none {
+  padding-right: 0;
+}
+.u-paddingRight--xs {
+  padding-right: 0.5rem;
+}
+.u-paddingRight--s {
+  padding-right: 1rem;
+}
+.u-paddingRight--m {
+  padding-right: 2rem;
+}
+.u-paddingRight--l {
+  padding-right: 4rem;
+}
+.u-paddingRight--xl {
+  padding-right: 8rem;
+}
+
+/*# sourceMappingURL=main.css.map */

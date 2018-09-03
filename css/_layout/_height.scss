@@ -1,0 +1,14 @@
+.l-height {
+    &--half {
+        box-sizing: border-box;
+        min-height: 50vh;
+    }
+    &--threeQuarter {
+        box-sizing: border-box;
+        min-height: 75vh;
+    }
+    &--full {
+        box-sizing: border-box;
+        min-height: 100vh;
+    }
+}

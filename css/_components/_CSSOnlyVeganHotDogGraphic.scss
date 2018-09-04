@@ -25,43 +25,53 @@ $veganHotdogScale: 10em;
     cursor: pointer;
 
     &__container {
+        position: relative;
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-flow: column;
-    animation: shake 750ms infinite linear;
-//        animation: hover 3s infinite linear;
+        animation: shake 750ms infinite linear;
 
     }
     // Vegan hotdog
     &__veganHotDog {
-        margin: auto auto 0;
-        font-size: .75em;
-        width: 1em;
-        height: .18em;
-        border-radius: .09em;
+        top: .39em;
+        margin: auto;
+        width: .8em;
+        height: .14em;
+        border-radius: .07em;
         background-color: $colorHotdog;
     }
     // Bread
     &__bread {
-        font-size: .75em;
-        width: .85em;
-        height: .3em;
+
+        top: .30em;
+        margin: auto;
+        width: .6em;
+        height: .24em;
+        border-radius: .1em;
         background-color: $colorBread;
-        border-radius: .2em;
-        margin: -.1em auto auto;
+
     }
     &__condiments {
         // Condiments modifiers
         // general postion and measurements
-        &--ketchup {
+        top: 0em;
+        margin: auto;
+        width: .6em;
+        height: .03em;
+        border-radius: .015em;
 
+        &--ketchup {
+            background: $colorKetchup;
         }
         &--mustard {
-
+            background: $colorMustard;
+            height: .04em;
+            border-radius: .02em;
         }
         &--picklemayo {
-
+            background: green;
+            height: .05em;
+            border-radius: .025em;
         }
     }
 }
@@ -111,17 +121,5 @@ $veganHotdogScale: 10em;
     }
     100% {
         transform: rotateZ(0);
-    }
-}
-
-@keyframes hover {
-    0% {
-        transform: translateY($veganHotdogScale*0.005);
-    }
-    50% {
-        transform: translateY(-$veganHotdogScale*0.005);
-    }
-    100% {
-        transform: translateY($veganHotdogScale*0.005);
     }
 }

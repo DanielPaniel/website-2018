@@ -1,0 +1,12 @@
+.u-color {
+    &--black {
+        color: #1d1d1e;
+    }
+    &--white {
+        color: #fff;
+        &Blend {
+            color: #fff;
+            opacity: .9;
+        }
+    }
+}

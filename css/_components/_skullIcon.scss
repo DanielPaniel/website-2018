@@ -1,0 +1,22 @@
+.c-skullIcon {
+  margin: auto;
+  font-size: 10rem;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  color: rgba(255,255,255,.95);
+
+  animation: colorFade 2500ms infinite ease-in;
+}
+
+@keyframes colorFade {
+ 0% {
+   background: #F8955D;
+ }
+ 50% {
+   background: #E88DF7;
+ }
+  100% {
+   background: #F8955D;
+ }
+}

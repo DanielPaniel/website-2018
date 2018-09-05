@@ -84,7 +84,10 @@ html {
   animation: shake 750ms infinite linear;
 }
 .c-CSSOnlyVeganHotDogGraphic__veganHotDog {
+  position: absolute;
   top: 0.39em;
+  left: 0;
+  right: 0;
   margin: auto;
   width: 0.8em;
   height: 0.14em;
@@ -92,7 +95,10 @@ html {
   background-color: #CA6A41;
 }
 .c-CSSOnlyVeganHotDogGraphic__bread {
-  top: 0.3em;
+  position: absolute;
+  top: 0.44em;
+  left: 0;
+  right: 0;
   margin: auto;
   width: 0.6em;
   height: 0.24em;
@@ -100,7 +106,10 @@ html {
   background-color: #EDB662;
 }
 .c-CSSOnlyVeganHotDogGraphic__condiments {
-  top: 0em;
+  position: absolute;
+  top: 0.38em;
+  left: 0;
+  right: 0;
   margin: auto;
   width: 0.6em;
   height: 0.03em;
@@ -115,14 +124,11 @@ html {
   border-radius: 0.02em;
 }
 .c-CSSOnlyVeganHotDogGraphic__condiments--picklemayo {
-  background: green;
+  background: #84B66D;
   height: 0.05em;
   border-radius: 0.025em;
 }
 
-.u-biteAnimation {
-  position: relative;
-}
 .u-biteAnimation:after {
   content: "";
   display: block;

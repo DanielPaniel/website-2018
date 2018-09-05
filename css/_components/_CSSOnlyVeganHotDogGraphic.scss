@@ -3,6 +3,7 @@ $colorHotdog: #CA6A41;
 $colorBread: #EDB662;
 $colorKetchup: #D92A1F;
 $colorMustard: #F5D530;
+$colorPickleMayo: #84B66D;
 $colorBackground: #fff;
 
 $baseFont: 1rem;
@@ -33,7 +34,10 @@ $veganHotdogScale: 10em;
     }
     // Vegan hotdog
     &__veganHotDog {
+        position: absolute;
         top: .39em;
+        left: 0;
+        right: 0;
         margin: auto;
         width: .8em;
         height: .14em;
@@ -42,8 +46,10 @@ $veganHotdogScale: 10em;
     }
     // Bread
     &__bread {
-
-        top: .30em;
+        position: absolute;
+        top: .44em;
+        left: 0;
+        right: 0;
         margin: auto;
         width: .6em;
         height: .24em;
@@ -54,7 +60,10 @@ $veganHotdogScale: 10em;
     &__condiments {
         // Condiments modifiers
         // general postion and measurements
-        top: 0em;
+        position: absolute;
+        top: .38em;
+        left: 0;
+        right: 0;
         margin: auto;
         width: .6em;
         height: .03em;
@@ -69,14 +78,14 @@ $veganHotdogScale: 10em;
             border-radius: .02em;
         }
         &--picklemayo {
-            background: green;
+            background: $colorPickleMayo;
             height: .05em;
             border-radius: .025em;
         }
     }
 }
 .u-biteAnimation {
-    position: relative;
+//    position: relative;
     &:after {
         content: '';
         display: block;

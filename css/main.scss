@@ -2,6 +2,7 @@
 
 @import
     "_resources/reset",
+    "_resources/breakpoints",
     "_resources/fonts"
 ;
 
@@ -19,7 +20,8 @@
 // Layout - Chunks/Blocks of rules dealing with page layout/structure
 // Namespaced by prefix l-something
 @import
-    "_layout/height"
+    "_layout/height",
+    "_layout/width"
 ;
 
 // Utilities - single rule-classes to override and be sprinkled anywhere

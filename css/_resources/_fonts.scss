@@ -1,10 +1,19 @@
 // Purpose of file:
 // Settings for font-stacks, font-sizes, etc
 
-$fontHeader: "Overpass Mono", "Lucida Grande", "Arial", sans-serif;
+$fontHeader: "Montserrat", "Lucida Grande", "Arial", sans-serif;
 $fontSmall: "Karla", "Lucida Grande", "Arial", sans-serif;
 
-$fontSizeSmall: .85rem;
-$fontSizeMedium: 1rem;
-$fontSizeLarge: 2rem;
+// Relations between font sizes
+$fontSizeSmall: 1rem;
+$fontSizeMedium: 1.5rem;
+$fontSizeLarge: 3rem;
 $fontSizeXLarge: 5rem;
+
+// Responsive base line font size
+html {
+    font-size: 14px;
+    @media (min-width: $oneColumn) {
+      font-size: 16px;
+    }
+}

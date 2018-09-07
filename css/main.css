@@ -185,6 +185,19 @@ html {
   line-height: 1.25;
 }
 
+.c-sideScroller {
+  display: flex;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  height: 75vh;
+}
+.c-sideScroller__item {
+  min-width: 90vw;
+  box-sizing: border-box;
+  background: #F5D530;
+}
+
 .c-siteHeader {
   align-items: center;
   background: #009D8A linear-gradient(135deg, #45D6A2 0%, #009D8A 100%);

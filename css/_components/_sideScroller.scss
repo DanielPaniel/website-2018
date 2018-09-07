@@ -1,0 +1,12 @@
+.c-sideScroller {
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    height: 75vh;
+    &__item {
+        min-width: 90vw;
+        box-sizing: border-box;
+        background: #F5D530;
+    }
+}

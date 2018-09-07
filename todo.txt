@@ -1,0 +1,25 @@
+TODO:
+
+Stuff - ställe med grejer
+	Sidoscroll efter huvudet?
+
+	* Kulturnatta
+
+	* Codepen-memory
+	* Codepen-knappar?
+
+	* Mammas hemsida?
+	* Donalds hemsida?
+
+Kontakt-uppg i foten
+	GitHub, email, linked-in, codepen?
+
+Stylea länkar
+
+Bild på mig
+	Under about?
+
+Självporträtt i only CSS
+
+
+Auto-deploy?

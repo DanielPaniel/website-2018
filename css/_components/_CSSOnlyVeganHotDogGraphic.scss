@@ -6,13 +6,11 @@ $colorMustard: #F5D530;
 $colorPickleMayo: #84B66D;
 $colorBackground: #fff;
 
-$baseFont: 1rem;
-$veganHotdogScale: 10em;
+$veganHotdogScale: 15rem;
 
 // Vegan hotdog container
 // The circle in which the hotdog hovers
 .c-CSSOnlyVeganHotDogGraphic {
-    font-size: $baseFont;
     margin: auto;
     border-radius: 50%;
     position: relative;

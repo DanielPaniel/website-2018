@@ -53,25 +53,29 @@ table {
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
+}
+@media (min-width: 800px) {
+  html {
+    font-size: 16px;
+  }
 }
 
 .c-bodyText {
   font-family: "Karla", "Lucida Grande", "Arial", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: normal;
-  line-height: 1.8;
+  line-height: 1.6;
   opacity: 0.9;
 }
 
 .c-CSSOnlyVeganHotDogGraphic {
-  font-size: 1rem;
   margin: auto;
   border-radius: 50%;
   position: relative;
   background-color: #fff;
   box-sizing: border-box;
-  font-size: 10em;
+  font-size: 15rem;
   width: 1em;
   height: 1em;
   overflow: hidden;
@@ -174,9 +178,11 @@ html {
   }
 }
 .c-title {
-  font-family: "Overpass Mono", "Lucida Grande", "Arial", sans-serif;
+  font-family: "Montserrat", "Lucida Grande", "Arial", sans-serif;
   font-size: 5rem;
-  line-height: 1.5;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1.25;
 }
 
 .c-siteHeader {
@@ -211,8 +217,9 @@ html {
 }
 .c-subTitle {
   font-family: "Karla", "Lucida Grande", "Arial", sans-serif;
-  font-size: 2rem;
-  line-height: 1.5;
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 1.25;
 }
 
 .l-height--half {
@@ -226,6 +233,10 @@ html {
 .l-height--full {
   box-sizing: border-box;
   min-height: 100vh;
+}
+
+.l-width--oneColumn {
+  max-width: 800px;
 }
 
 .u-color--black {

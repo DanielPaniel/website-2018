@@ -195,15 +195,13 @@ html {
 }
 .c-sideScroller__item {
   max-width: 90%;
-  min-width: 40%;
+  min-width: 80%;
   box-sizing: border-box;
-  border-radius: 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
 }
 
 .c-siteHeader {
   align-items: center;
-  background: #009D8A linear-gradient(135deg, #45D6A2 0%, #009D8A 100%);
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -258,7 +256,12 @@ html {
   background: #fff;
 }
 .u-background--fadePink {
-  background: #E88DF7 linear-gradient(135deg, #E88DF7 0%, #EDB662 100%);
+  background-color: #E88DF7;
+  background-image: linear-gradient(135deg, #E88DF7 0%, #EDB662 100%);
+}
+.u-background--fadeGreen {
+  background-color: #009D8A;
+  background-image: linear-gradient(155deg, #45D6A2 0%, #009D8A 100%);
 }
 
 .u-color--black {

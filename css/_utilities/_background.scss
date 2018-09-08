@@ -1,0 +1,9 @@
+.u-background {
+    &--white {
+        background: #fff;
+    }
+
+    &--fadePink {
+        background: #E88DF7 linear-gradient(135deg, #E88DF7 0%, #EDB662 100%);
+    }
+}

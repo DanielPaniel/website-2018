@@ -3,4 +3,7 @@
     &--oneColumn {
         max-width: $oneColumn;
     }
+    &--full {
+        width: 100%;
+    }
 }

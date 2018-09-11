@@ -11,4 +11,8 @@
         box-sizing: border-box;
         min-height: 100vh;
     }
+    &--icon {
+        box-sizing: border-box;
+        max-height: 12rem;
+    }
 }

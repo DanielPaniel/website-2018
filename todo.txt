@@ -5,7 +5,7 @@ Stuff - ställe med grejer
 
 	* Kulturnatta
 
-	* Codepen-memory
+//	* Codepen-memory
 	* Codepen-knappar?
 
 	* Mammas hemsida?
@@ -15,6 +15,8 @@ Kontakt-uppg i foten
 	GitHub, email, linked-in, codepen?
 
 Stylea länkar
+
+Trianglify.js i sidhuvudet
 
 Bild på mig
 	Under about?

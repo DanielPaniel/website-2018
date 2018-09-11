@@ -1,6 +1,10 @@
 .c-siteHeader {
     align-items: center;
+    align-content: center;
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     width: 100%;
+    box-sizing: border-box;
+    height: 50rem;
+    max-height: 100vh;
 }

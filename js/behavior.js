@@ -1,3 +1,10 @@
+var pattern = Trianglify({
+  height: 300,
+  width: 300,
+  cell_size: 40});
+
+document.getElementsByTagName("body")[0].appendChild(pattern.canvas());
+
 function veganHotdogClasses() {
     var CSScomponentClass = "c-CSSOnlyVeganHotDogGraphic__condiments--";
     var classes = [CSScomponentClass + "none",

@@ -11,6 +11,8 @@ Fine-tuna font-strl
 Deploy
 	Auto-deploy?
 
+Numrera stuff
+
 Färgschema för trianglify
 
 Bild på mig

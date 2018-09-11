@@ -79,12 +79,13 @@ html {
   width: 1em;
   height: 1em;
   overflow: hidden;
-  cursor: pointer;
 }
 .c-CSSOnlyVeganHotDogGraphic__container {
   position: relative;
   width: 100%;
   height: 100%;
+}
+.c-CSSOnlyVeganHotDogGraphic__container--recoil {
   animation: shake 750ms infinite linear;
 }
 .c-CSSOnlyVeganHotDogGraphic__veganHotDog {
@@ -118,6 +119,9 @@ html {
   width: 0.6em;
   height: 0.03em;
   border-radius: 0.015em;
+}
+.c-CSSOnlyVeganHotDogGraphic__condiments--none {
+  opacity: 0;
 }
 .c-CSSOnlyVeganHotDogGraphic__condiments--ketchup {
   background: #D92A1F;
@@ -262,8 +266,9 @@ html {
   min-height: 100vh;
 }
 .l-height--icon {
+  font-size: 12rem;
   box-sizing: border-box;
-  max-height: 12rem;
+  max-height: 1em;
 }
 
 .l-onTop {
@@ -312,6 +317,10 @@ html {
 .u-color--whiteBlend {
   color: #fff;
   opacity: 0.9;
+}
+
+.u-cursor--pointer {
+  cursor: pointer;
 }
 
 .u-margin--auto {

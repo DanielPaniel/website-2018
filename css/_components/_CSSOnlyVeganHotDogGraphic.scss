@@ -21,13 +21,15 @@ $veganHotdogScale: 15rem;
     width: 1em;
     height: 1em;
     overflow: hidden;
-    cursor: pointer;
 
     &__container {
         position: relative;
         width: 100%;
         height: 100%;
-        animation: shake 750ms infinite linear;
+
+        &--recoil {
+            animation: shake 750ms infinite linear;
+        }
 
     }
     // Vegan hotdog
@@ -66,6 +68,10 @@ $veganHotdogScale: 15rem;
         width: .6em;
         height: .03em;
         border-radius: .015em;
+
+        &--none {
+            opacity: 0;
+        }
 
         &--ketchup {
             background: $colorKetchup;

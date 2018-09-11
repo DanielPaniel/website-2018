@@ -5,11 +5,12 @@
         <title>Daniel Palmér - web and interaction and design</title>
         <link href="https://fonts.googleapis.com/css?family=Karla|Montserrat:300" rel="stylesheet">
         <link rel="stylesheet" href="./css/main.css" />
-        <script src="./js/behavior.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.2.0/trianglify.min.js"></script>
     </head>
     <body>
-        <div class="u-background--fadeGreen">
-            <header class="c-siteHeader u-paddingX--m u-paddingY--l">
+        <div class="c-triangleBackground u-background--fadeGreen">
+            <canvas id="trianglePattern" class="c-triangleBackground__pattern"></canvas>
+            <header class="c-siteHeader l-relative l-onTop u-paddingX--m u-paddingY--l">
                 <h1 class="c-title l-width--full u-align--center u-color--whiteBlend u-marginY--auto">Daniel Palmér</h1>
 
                 <div class="c-CSSOnlyVeganHotDogGraphic u-marginY--l" onclick="javascript:veganHotdogClasses()">
@@ -26,7 +27,7 @@
                 </div>
             </header>
 
-            <section class="u-marginTop--l">
+            <section class="l-relative l-onTop u-marginTop--l">
                 <ol class="c-sideScroller u-paddingX--s u-paddingBottom--l">
                     <li class="c-sideScroller__item u-background--white u-margin--s u-padding--m">
 
@@ -84,5 +85,6 @@
 
             </div>
         </section>
+        <script src="./js/behavior.js"></script>
     </body>
 </html>

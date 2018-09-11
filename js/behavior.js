@@ -1,9 +1,19 @@
+var targetElement = document.getElementById("trianglePattern");
+var pattern = Trianglify({
+    height: targetElement.offsetHeight,
+    width: targetElement.offsetWidth,
+    cell_size: 100,
+    variance: 1
+});
+pattern.canvas(targetElement);
+
+
 function veganHotdogClasses() {
-    var CSScomponentClass = "c-CSSOnlyVeganHotDogGraphic__condiments--";
-    var classes = [CSScomponentClass + "none",
-                    CSScomponentClass + "ketchup",
-                    CSScomponentClass + "mustard",
-                    CSScomponentClass + "picklemayo"];
+    var CSScomponentClass = "c-CSSOnlyVeganHotDogGraphic__condiments";
+    var classes = [CSScomponentClass + "--none",
+    CSScomponentClass + "--ketchup",
+    CSScomponentClass + "--mustard",
+    CSScomponentClass + "--picklemayo"];
 
     var veganHotdogClasses = document.getElementById("veganHotDogCondiments").classList;
 

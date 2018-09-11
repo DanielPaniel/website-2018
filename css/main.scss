@@ -3,7 +3,8 @@
 @import
     "_resources/reset",
     "_resources/breakpoints",
-    "_resources/fonts"
+    "_resources/fonts",
+    "_resources/zindex"
 ;
 
 // Components - Chunks/Blocks of rules coupled for consistency
@@ -15,13 +16,16 @@
     "_components/title",
     "_components/sideScroller",
     "_components/siteHeader",
-    "_components/subTitle"
+    "_components/subTitle",
+    "_components/triangleBackground"
 ;
 
 // Layout - Chunks/Blocks of rules dealing with page layout/structure
 // Namespaced by prefix l-something
 @import
     "_layout/height",
+    "_layout/onTop",
+    "_layout/position",
     "_layout/width"
 ;
 

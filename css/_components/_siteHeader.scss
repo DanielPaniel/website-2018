@@ -1,8 +1,10 @@
 .c-siteHeader {
     align-items: center;
-    background: #009D8A linear-gradient(135deg, #45D6A2 0%, #009D8A 100%);
+    align-content: center;
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     width: 100%;
-    text-align: center;
+    box-sizing: border-box;
+    height: 50rem;
+    max-height: 100vh;
 }

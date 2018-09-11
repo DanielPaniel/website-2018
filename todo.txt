@@ -1,0 +1,25 @@
+TODO:
+
+Trianglify.js i sidhuvudet
+
+Kontakt-uppg i foten
+	GitHub, email, linked-in, codepen?
+
+Stylea a-länkar
+
+Deploy
+	Auto-deploy?
+
+Bild på mig
+	Under about?
+
+Självporträtt i only CSS
+
+Hemsidor
+	Efter About som en ny stuff-section? Fast större? Hur visa screens?
+
+	* Kulturnatta
+	* Mammas hemsida?
+	* Donalds hemsida?
+
+	* Kollektiva proj?

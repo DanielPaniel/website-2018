@@ -8,27 +8,69 @@
         <script src="./js/behavior.js"></script>
     </head>
     <body>
-        <header class="c-siteHeader l-height--half u-paddingX--m u-paddingY--l">
-            <h1 class="c-title u-color--whiteBlend u-marginTop--none u-marginBottom--l">Daniel Palmér</h1>
+        <div class="u-background--fadeGreen">
+            <header class="c-siteHeader u-paddingX--m u-paddingY--l">
+                <h1 class="c-title l-width--full u-align--center u-color--whiteBlend u-marginY--auto">Daniel Palmér</h1>
 
-            <div class="c-CSSOnlyVeganHotDogGraphic u-marginY--auto" onclick="javascript:veganHotdogClasses()">
-                <div class="c-CSSOnlyVeganHotDogGraphic__container">
-                    <div class="c-CSSOnlyVeganHotDogGraphic__veganHotDog u-biteAnimation"></div>
+                <div class="c-CSSOnlyVeganHotDogGraphic u-marginY--l" onclick="javascript:veganHotdogClasses()">
+                    <div class="c-CSSOnlyVeganHotDogGraphic__container">
+                        <div class="c-CSSOnlyVeganHotDogGraphic__veganHotDog u-biteAnimation"></div>
 
-                    <div id="veganHotDogCondiments" class="c-CSSOnlyVeganHotDogGraphic__condiments c-CSSOnlyVeganHotDogGraphic__condiments--ketchup u-biteAnimation"></div>
-                    <div class="c-CSSOnlyVeganHotDogGraphic__bread u-biteAnimation"></div>
+                        <div id="veganHotDogCondiments" class="c-CSSOnlyVeganHotDogGraphic__condiments c-CSSOnlyVeganHotDogGraphic__condiments--ketchup u-biteAnimation"></div>
+                        <div class="c-CSSOnlyVeganHotDogGraphic__bread u-biteAnimation"></div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="c-subTitle u-color--whiteBlend u-marginTop--l u-marginBottom--none">
-                Web + Interaction + Design
-            </div>
-        </header>
+                <div class="c-subTitle l-width--full u-align--center u-color--whiteBlend u-marginY--auto">
+                    Web + Interaction + Design
+                </div>
+            </header>
 
+            <section class="u-marginTop--l">
+                <ol class="c-sideScroller u-paddingX--s u-paddingBottom--l">
+                    <li class="c-sideScroller__item u-background--white u-margin--s u-padding--m">
+
+                        <svg class="c-memoryIcon l-height--icon" xmlns="http://www.w3.org/2000/svg" viewBox="321 140 200 200">
+                          <g fill="none" fill-rule="evenodd" transform="translate(321 140)">
+                            <circle cx="100" cy="100" r="100" class="c-memoryIcon__base"/>
+                            <path class="c-memoryIcon__figure" d="M113 100V45H87v55H60v26h27v29h26v-29h27v-26h-27zm-13 80a80 80 0 1 0 0-160 80 80 0 0 0 0 160z"/>
+                          </g>
+                        </svg>
+
+                        <div class="c-subTitle u-color--black u-marginTop--s">
+                            CSS-memory
+                        </div>
+                        <div class="c-bodyText u-color--black u-marginTop--s">
+                            Memory game based on CSS animations. Logic in Javascript/jQuery.
+                        </div>
+
+                        <div class="c-bodyText u-color--black u-marginTop--s">
+                            <a href="https://codepen.io/danne32/pen/NdXENV">See on Codepen</a>
+                        </div>
+                    </li>
+
+                    <li class="c-sideScroller__item u-background--white u-margin--s u-padding--m">
+                        <img class="l-height--icon u-marginY--s" src="images/buttons.png" alt="Example buttons"/>
+
+                        <div class="c-subTitle u-color--black">
+                            CSS buttons
+                        </div>
+                        <div class="c-bodyText u-color--black">
+                            Button animation tests<br/>
+                            <a href="https://codepen.io/danne32/pen/mRBZVg">See on Codepen</a>
+                        </div>
+                    </li>
+
+                    <li class="c-sideScroller__item u-background--white u-margin--s u-padding--m">
+                        Item 3
+                    </li>
+                </ol>
+            </section>
+        </div>
         <section class="l-width--oneColumn u-marginX--auto">
             <div class="u-marginX--m u-marginY--l">
 
-                <h2 class="c-subTitle u-color--black">About</h2>
+                <h2 class="c-subTitle u-color--black u-marginBottom--m">About</h2>
 
                 <p class="c-bodyText u-color--black">
                     Daniel is a digital designer, with competence within user experience and interaction design, and frontend web development.

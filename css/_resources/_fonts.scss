@@ -5,15 +5,14 @@ $fontHeader: "Montserrat", "Lucida Grande", "Arial", sans-serif;
 $fontSmall: "Karla", "Lucida Grande", "Arial", sans-serif;
 
 // Relations between font sizes
-$fontSizeSmall: 1rem;
-$fontSizeMedium: 1.5rem;
-$fontSizeLarge: 3rem;
-$fontSizeXLarge: 5rem;
+$fontSizeMedium: 1.414rem;
+$fontSizeLarge: 1.999rem;
+$fontSizeXLarge: 2.827rem;
 
 // Responsive base line font size
 html {
-    font-size: 14px;
-    @media (min-width: $oneColumn) {
-      font-size: 16px;
+    font-size: 24px;
+    @media (min-width: 1000px) {
+      font-size:18px;
     }
 }

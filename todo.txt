@@ -1,18 +1,15 @@
 TODO:
 
-Stylea a-länkar
-
-Fine-tuna font-strl
-	Spec för mob
-
 Testa i olika browsers
 
 Deploy
-	Auto-deploy?
+	kolla github pages
 
 Numrera stuff
 
-Färgschema för trianglify
+Byt ut sass-variabler till css custom prop
+
+Färgschema för trianglify?
 
 Bild på mig
 	Under about?
@@ -21,6 +18,9 @@ Bild på mig
 Självporträtt i only CSS
 
 Label på socialLogo i footer
+
+Auto-deploy?
+
 
 Hemsidor
 	Efter About som en ny stuff-section? Fast större? Hur visa screens?

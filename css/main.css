@@ -181,6 +181,14 @@ html {
     transform: rotateZ(0);
   }
 }
+.c-itemLink {
+  display: inline-block;
+  text-decoration: none;
+  border: 0.25em solid #1d1d1e;
+  padding: 0.75em 1.75em;
+  border-radius: 3em;
+}
+
 .c-memoryIcon__base {
   fill: #000;
 }

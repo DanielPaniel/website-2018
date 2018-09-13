@@ -1,12 +1,11 @@
 TODO:
 
-Kontakt-uppg i foten
-	GitHub, email, linked-in, codepen?
-
 Stylea a-länkar
 
 Fine-tuna font-strl
 	Spec för mob
+
+Testa i olika browsers
 
 Deploy
 	Auto-deploy?

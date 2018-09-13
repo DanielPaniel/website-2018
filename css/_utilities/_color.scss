@@ -1,12 +1,12 @@
 .u-color {
     &--black {
-        color: #1d1d1e;
+        color: $colorBlack;
     }
     &--white {
-        color: #fff;
-        
+        color: $colorWhite;
+
         &Blend {
-            color: #fff;
+            color: $colorWhite;
             opacity: .9;
         }
     }

@@ -1,0 +1,12 @@
+.c-socialLogo {
+    display: flex;
+    
+    &__icon {
+        font-size: 5rem;
+        width: 1em;
+        height: 1em;
+        max-width: 1em;
+        max-height: 1em;
+        fill: currentColor;
+    }
+}

@@ -17,8 +17,11 @@ Färgschema för trianglify
 
 Bild på mig
 	Under about?
+	+ på github
 
 Självporträtt i only CSS
+
+Label på socialLogo i footer
 
 Hemsidor
 	Efter About som en ny stuff-section? Fast större? Hur visa screens?

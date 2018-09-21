@@ -2,7 +2,7 @@ var targetElement = document.getElementById("trianglePattern");
 var pattern = Trianglify({
     height: targetElement.offsetHeight,
     width: targetElement.offsetWidth,
-    cell_size: 100,
+    cell_size: 200,
     variance: 1
 });
 pattern.canvas(targetElement);

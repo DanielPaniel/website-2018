@@ -3,11 +3,11 @@ TODO:
 Testa i olika browsers
 
 Deploy
-	kolla github pages
 
 Numrera stuff
 
-Byt ut sass-variabler till css custom prop
+Byt ut sass-variabler till css custom prop?
+	Prob: ändra font/marginaler per brytpunkt
 
 Färgschema för trianglify?
 

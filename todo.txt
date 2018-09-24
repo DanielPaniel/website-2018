@@ -8,10 +8,14 @@ Byt ut sass-variabler till css custom prop?
 
 Färgschema för trianglify?
 	Run-time-rendera slump-svg som bakgrund istället för canvas?
+		Prob: krävande rendering i canvas?
 
 Bild på mig
 	Under about?
 	+ på github
+
+Vänd på korv-logiken - slumpa condiment, klicka för att animationsäta?
+	Prob: minska krävande animation, öka engagemang/överraskning
 
 Självporträtt i only CSS
 

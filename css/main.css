@@ -211,9 +211,19 @@ html {
   -webkit-overflow-scrolling: touch;
   width: 100%;
   box-sizing: border-box;
+  counter-reset: item-counter;
 }
 .c-sideScroller__item {
   text-align: center;
+  position: relative;
+}
+.c-sideScroller__item:before {
+  color: #1d1d1e;
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  content: counter(item-counter) ".";
+  counter-increment: item-counter;
 }
 
 .c-siteHeader {
@@ -239,7 +249,7 @@ html {
   fill: currentColor;
 }
 
-.c-subTitle {
+.c-subTitle, .c-sideScroller__item:before {
   font-family: "Karla", "Lucida Grande", "Arial", sans-serif;
   font-size: 1.999rem;
   text-transform: uppercase;

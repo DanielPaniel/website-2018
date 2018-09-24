@@ -4,7 +4,21 @@
     -webkit-overflow-scrolling: touch;
     width: 100%;
     box-sizing: border-box;
+
+    counter-reset: item-counter;
     &__item {
         text-align: center;
+        position: relative;
+
+        &:before {
+            @extend .c-subTitle;
+            color: $colorBlack;
+            
+            position: absolute;
+            left: 2rem;
+            top: 2rem;
+            content: counter(item-counter) ".";
+	        counter-increment: item-counter;
+        }
     }
 }

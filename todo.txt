@@ -1,35 +1,51 @@
 TODO:
 
-// Testa i olika browsers
-// Deploy
+Prob: Vem är jag
+	Bild på mig
+		Under about?
+		+ på github
 
-Byt ut sass-variabler till css custom prop?
-	Prob: ändra font/marginaler per brytpunkt
 
-Färgschema för trianglify?
+Prob: minska krävande animation, öka engagemang/överraskning
+	Vänd på korv-logiken - slumpa condiment, klicka för att animationsäta?
+	Auto-ät efter tid
+
+
+Prob: krävande rendering i canvas?
 	Run-time-rendera slump-svg som bakgrund istället för canvas?
-		Prob: krävande rendering i canvas?
 
-Bild på mig
-	Under about?
-	+ på github
 
-Vänd på korv-logiken - slumpa condiment, klicka för att animationsäta?
-	Prob: minska krävande animation, öka engagemang/överraskning
+Prob: Svårkontrollerade strl/marginaler (i olika skärm/ppi)
+	Byt ut sass-variabler till css custom prop?
+	Inför brytpunkter
 
-Självporträtt i only CSS
 
-Label på socialLogo i footer
+Prob: Trianglarna är out of box
+	Färgschema för trianglify?
 
-Auto-deploy?
 
-Google analytics?
+Prob: För lite grejer i stuff?
+	Självporträtt i only CSS
 
-Hemsidor
-	Efter About som en ny stuff-section? Fast större? Hur visa screens?
 
-	* Kulturnatta
-	* Mammas hemsida?
-	* Donalds hemsida?
+Prob: Otydlig Footer
+	Label på socialLogo i footer
 
-	* Kollektiva proj?
+
+Prob: 3 olika versioner, lokal, github, vmguld
+	Auto-deploy/ Peka om t github?
+
+
+Prob: Tittar nån?
+	Google analytics?
+
+
+Prob: Inget proffscontent
+	Hemsidor
+		Efter About som en ny stuff-section? Fast större? Hur visa screens?
+
+		* Kulturnatta
+		* Mammas hemsida?
+		* Donalds hemsida?
+
+		* Kollektiva proj?

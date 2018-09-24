@@ -1,8 +1,7 @@
 TODO:
 
-Testa i olika browsers
-
-Deploy
+// Testa i olika browsers
+// Deploy
 
 Numrera stuff
 
@@ -10,6 +9,7 @@ Byt ut sass-variabler till css custom prop?
 	Prob: ändra font/marginaler per brytpunkt
 
 Färgschema för trianglify?
+	Run-time-rendera slump-svg som bakgrund istället för canvas?
 
 Bild på mig
 	Under about?
@@ -21,6 +21,7 @@ Label på socialLogo i footer
 
 Auto-deploy?
 
+Google analytics?
 
 Hemsidor
 	Efter About som en ny stuff-section? Fast större? Hur visa screens?

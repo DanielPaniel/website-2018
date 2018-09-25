@@ -26,11 +26,6 @@ $veganHotdogScale: 10rem;
         position: relative;
         width: 100%;
         height: 100%;
-
-        &--recoil {
-            animation: shake 750ms infinite linear;
-        }
-
     }
     // Vegan hotdog
     &__veganHotDog {
@@ -88,49 +83,115 @@ $veganHotdogScale: 10rem;
         }
     }
 }
-.u-biteAnimation {
-//    position: relative;
-    &:after {
-        content: '';
-        display: block;
-        position: absolute;
-        //-1px to prevent graphic glitch on ios
-        top: -1px;
-        bottom: -1px;
-        left: -1px;
-        right: -1px;
-        background: transparent;
-        animation: biteAnimation 3s infinite linear;
+.c-biteAnimation {
+        animation: appear 200ms linear;
 
+    // no bite / base style --noBite
+    .c-biteAnimation__biteable {
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            //-1px to prevent graphic glitch on ios
+            top: -1px;
+            bottom: -1px;
+            left: -1px;
+            right: -1px;
+            background: transparent;
+
+        }
+    }
+
+    // one bite
+    &--biteOne {
+        animation: firstBite 200ms linear;
+
+        .c-biteAnimation__biteable {
+            &:after {
+                background: radial-gradient(
+                circle at 0%,
+                $colorBackground 30%,
+                transparent 30%
+                );
+            }
+        }
+    }
+
+
+    // second bite
+    &--biteTwo {
+        animation: secondBite 200ms linear;
+
+        .c-biteAnimation__biteable {
+            &:after {
+                background: radial-gradient(
+                circle at 0%,
+                $colorBackground 60%,
+                transparent 60%
+                );
+            }
+        }
+    }
+
+    // eaten
+    &--eaten {
+        animation: none;
+
+        .c-biteAnimation__biteable {
+            &:after {
+                background: $colorBackground;
+            }
+        }
     }
 }
-
-@keyframes biteAnimation {
-    0%, 25% {
-        background: transparent;
-    }
-    26%, 50% {
-        background: radial-gradient(circle at 0%, $colorBackground 30%, transparent 30%);
-    }
-    51%, 75% {
-        background: radial-gradient(circle at 0%, $colorBackground 60%, transparent 60%);
-    }
-    76%, 100% {
-        background: radial-gradient(circle at 0%, $colorBackground 99.9%, transparent 100%);
-    }
-}
-@keyframes shake {
-    0%, 90% {
+@keyframes appear {
+    0% {
         transform-origin: right;
         transform: rotateZ(0);
     }
-    92.5% {
+    25% {
         transform: rotateZ(-6deg);
     }
-    95% {
+    50% {
         transform: rotateZ(12deg);
     }
-    97.5% {
+    75% {
+        transform: rotateZ(-7deg);
+    }
+    100% {
+        transform: rotateZ(0);
+    }
+}
+@keyframes firstBite {
+    0% {
+        transform-origin: right;
+        transform: rotateZ(0);
+    }
+    25% {
+        transform: rotateZ(-6deg);
+    }
+    50% {
+        transform: rotateZ(12deg);
+    }
+    75% {
+        transform: rotateZ(-7deg);
+    }
+    100% {
+        transform: rotateZ(0);
+    }
+}
+@keyframes secondBite {
+    0% {
+        transform-origin: right;
+        transform: rotateZ(0);
+    }
+    25% {
+        transform: rotateZ(-6deg);
+    }
+    50% {
+        transform: rotateZ(12deg);
+    }
+    75% {
         transform: rotateZ(-7deg);
     }
     100% {

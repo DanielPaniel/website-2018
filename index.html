@@ -29,12 +29,12 @@
             <header class="c-siteHeader l-relative l-onTop u-paddingX--m u-paddingY--l">
                 <h1 class="c-title l-width--full u-align--center u-color--whiteBlend u-marginY--auto">Daniel Palmér</h1>
 
-                <div class="c-CSSOnlyVeganHotDogGraphic u-cursor--pointer u-marginY--l" onclick="javascript:veganHotdogClasses()">
-                    <div class="c-CSSOnlyVeganHotDogGraphic__container c-CSSOnlyVeganHotDogGraphic__container--recoil">
-                        <div class="c-CSSOnlyVeganHotDogGraphic__veganHotDog u-biteAnimation"></div>
+                <div class="c-CSSOnlyVeganHotDogGraphic u-cursor--pointer u-marginY--l" onclick="javascript:eatVeganHotdog()">
+                    <div class="c-CSSOnlyVeganHotDogGraphic__container c-biteAnimation c-biteAnimation--noBite" id="veganHotDogBiteAnimation">
+                        <div class="c-CSSOnlyVeganHotDogGraphic__veganHotDog c-biteAnimation__biteable"></div>
 
-                        <div id="veganHotDogCondiments" class="c-CSSOnlyVeganHotDogGraphic__condiments c-CSSOnlyVeganHotDogGraphic__condiments--ketchup u-biteAnimation"></div>
-                        <div class="c-CSSOnlyVeganHotDogGraphic__bread u-biteAnimation"></div>
+                        <div id="veganHotDogCondiments" class="c-CSSOnlyVeganHotDogGraphic__condiments c-CSSOnlyVeganHotDogGraphic__condiments--ketchup c-biteAnimation__biteable"></div>
+                        <div class="c-CSSOnlyVeganHotDogGraphic__bread c-biteAnimation__biteable"></div>
                     </div>
                 </div>
 

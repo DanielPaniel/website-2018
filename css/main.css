@@ -85,9 +85,6 @@ html {
   width: 100%;
   height: 100%;
 }
-.c-CSSOnlyVeganHotDogGraphic__container--recoil {
-  animation: shake 750ms infinite linear;
-}
 .c-CSSOnlyVeganHotDogGraphic__veganHotDog {
   position: absolute;
   top: 0.39em;
@@ -137,7 +134,10 @@ html {
   border-radius: 0.025em;
 }
 
-.u-biteAnimation:after {
+.c-biteAnimation {
+  animation: appear 200ms linear;
+}
+.c-biteAnimation .c-biteAnimation__biteable:after {
   content: "";
   display: block;
   position: absolute;
@@ -146,35 +146,74 @@ html {
   left: -1px;
   right: -1px;
   background: transparent;
-  animation: biteAnimation 3s infinite linear;
+}
+.c-biteAnimation--biteOne {
+  animation: firstBite 200ms linear;
+}
+.c-biteAnimation--biteOne .c-biteAnimation__biteable:after {
+  background: radial-gradient(circle at 0%, #fff 30%, transparent 30%);
+}
+.c-biteAnimation--biteTwo {
+  animation: secondBite 200ms linear;
+}
+.c-biteAnimation--biteTwo .c-biteAnimation__biteable:after {
+  background: radial-gradient(circle at 0%, #fff 60%, transparent 60%);
+}
+.c-biteAnimation--eaten {
+  animation: none;
+}
+.c-biteAnimation--eaten .c-biteAnimation__biteable:after {
+  background: #fff;
 }
 
-@keyframes biteAnimation {
-  0%, 25% {
-    background: transparent;
-  }
-  26%, 50% {
-    background: radial-gradient(circle at 0%, #fff 30%, transparent 30%);
-  }
-  51%, 75% {
-    background: radial-gradient(circle at 0%, #fff 60%, transparent 60%);
-  }
-  76%, 100% {
-    background: radial-gradient(circle at 0%, #fff 99.9%, transparent 100%);
-  }
-}
-@keyframes shake {
-  0%, 90% {
+@keyframes appear {
+  0% {
     transform-origin: right;
     transform: rotateZ(0);
   }
-  92.5% {
+  25% {
     transform: rotateZ(-6deg);
   }
-  95% {
+  50% {
     transform: rotateZ(12deg);
   }
-  97.5% {
+  75% {
+    transform: rotateZ(-7deg);
+  }
+  100% {
+    transform: rotateZ(0);
+  }
+}
+@keyframes firstBite {
+  0% {
+    transform-origin: right;
+    transform: rotateZ(0);
+  }
+  25% {
+    transform: rotateZ(-6deg);
+  }
+  50% {
+    transform: rotateZ(12deg);
+  }
+  75% {
+    transform: rotateZ(-7deg);
+  }
+  100% {
+    transform: rotateZ(0);
+  }
+}
+@keyframes secondBite {
+  0% {
+    transform-origin: right;
+    transform: rotateZ(0);
+  }
+  25% {
+    transform: rotateZ(-6deg);
+  }
+  50% {
+    transform: rotateZ(12deg);
+  }
+  75% {
     transform: rotateZ(-7deg);
   }
   100% {

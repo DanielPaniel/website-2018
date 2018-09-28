@@ -6,15 +6,6 @@ Prob: Vem är jag
 		+ på github
 
 
-Prob: minska krävande animation, öka engagemang/överraskning
-	Vänd på korv-logiken - slumpa condiment, klicka för att animationsäta?
-	Auto-ät efter tid
-
-
-Prob: krävande rendering i canvas?
-	Run-time-rendera slump-svg som bakgrund istället för canvas?
-
-
 Prob: Svårkontrollerade strl/marginaler (i olika skärm/ppi)
 	Byt ut sass-variabler till css custom prop?
 	Inför brytpunkter
@@ -30,6 +21,11 @@ Prob: För lite grejer i stuff?
 
 Prob: Otydlig Footer
 	Label på socialLogo i footer
+
+
+Prob: Möjligt att missa korv-klicket
+	Auto-ät efter tid
+	Ge poäng för antal korvar
 
 
 Prob: 3 olika versioner, lokal, github, vmguld

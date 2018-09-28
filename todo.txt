@@ -1,20 +1,5 @@
 TODO:
 
-Prob: Vem är jag
-	Bild på mig
-		Under about?
-		+ på github
-
-
-Prob: Svårkontrollerade strl/marginaler (i olika skärm/ppi)
-	Byt ut sass-variabler till css custom prop?
-	Inför brytpunkter
-
-
-Prob: Trianglarna är out of box
-	Färgschema för trianglify?
-
-
 Prob: För lite grejer i stuff?
 	Självporträtt i only CSS
 
@@ -26,6 +11,11 @@ Prob: Otydlig Footer
 Prob: Möjligt att missa korv-klicket
 	Auto-ät efter tid
 	Ge poäng för antal korvar
+
+
+Prob: Svårkontrollerade strl/marginaler (i olika skärm/ppi)
+	Byt ut sass-variabler till css custom prop?
+	Inför brytpunkter
 
 
 Prob: 3 olika versioner, lokal, github, vmguld
@@ -45,3 +35,7 @@ Prob: Inget proffscontent
 		* Donalds hemsida?
 
 		* Kollektiva proj?
+
+
+Prob: Trianglarna är out of box
+	Färgschema för trianglify?

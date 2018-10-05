@@ -1,8 +1,10 @@
 TODO:
 
-Prob: För lite grejer i stuff?
-	Självporträtt i only CSS
+Prob: knappar i items ligger ej i nederkant
+	
 
+Prob: ikon storlek sätts på olika ställen
+	Gör till variabel
 
 Prob: Otydlig Footer
 	Label på socialLogo i footer

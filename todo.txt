@@ -1,14 +1,8 @@
 TODO:
 
-Prob: knappar i items ligger ej i nederkant
-	
-
-Prob: ikon storlek sätts på olika ställen
-	Gör till variabel
-
-Prob: Otydlig Footer
-	Label på socialLogo i footer
-
+Prob: Om smalt fönster: sidoscroll pga oneColumn-klass
+Prob: Om tfn landscape - sidhuvud döljs av fold
+	Mer responsivt, ev med css-variabler?
 
 Prob: Möjligt att missa korv-klicket
 	Auto-ät efter tid

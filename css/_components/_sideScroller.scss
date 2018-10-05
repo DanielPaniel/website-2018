@@ -6,14 +6,21 @@
     box-sizing: border-box;
 
     counter-reset: item-counter;
+    &__image {
+        width: 10rem;
+        height: 10rem;
+    }
+
     &__item {
         text-align: center;
         position: relative;
+        display: flex;
+        flex-flow: column;
 
         &:before {
             @extend .c-subTitle;
             color: $colorBlack;
-            
+
             position: absolute;
             left: 2rem;
             top: 2rem;

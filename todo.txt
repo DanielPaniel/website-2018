@@ -1,4 +1,7 @@
 TODO:
+Lägg till grejer
+Style till inline länkar
+
 
 Prob: Om smalt fönster: sidoscroll pga oneColumn-klass
 Prob: Om tfn landscape - sidhuvud döljs av fold
